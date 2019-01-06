@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ts-node와 tslint를 동시에 실행해 특정 TS 파일의 결과 보기",
+      "type": "shell",
+      "command": "ts-node ${file} '&' tslint &{file}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentaion": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}

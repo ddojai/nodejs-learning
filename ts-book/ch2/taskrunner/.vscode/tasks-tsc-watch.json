@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "감시 모드에서 파일이 변경되면 특정 TS 파일을 컴파일하기",
+      "type": "shell",
+      "command": "ts-node ${file}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
