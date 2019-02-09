@@ -1,6 +1,10 @@
 # learning-nodejs
 
 ## typescript
+### link
+* https://ahnheejong.gitbook.io/ts-for-jsdev/
+* https://typescript-kr.github.io/
+
 ### typescript-express-starter
 * https://gongzza.github.io/javascript/nodejs/typescript-express-starter-3/
 
