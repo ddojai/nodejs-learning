@@ -2,7 +2,7 @@
   "name": "typescript-express-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
     "test": "mocha --require ts-node/register 'test/**/*.test.ts'",
     "start": "npm run lint && tsc && node dist/server",
